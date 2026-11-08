@@ -1,99 +1,168 @@
 # Política de Privacidade — Radar de Concursos Públicos
 
-**Última atualização: Novembro de 2026**
+**Última atualização do plugin:** Novembro de 2026
+
+**Política oficial do QuizConcursos.com (fonte canônica):** [quizconcursos.com/politica](https://www.quizconcursos.com/politica) · [quizconcursos.com/politica-de-privacidade](https://www.quizconcursos.com/politica-de-privacidade) — *Última atualização: Janeiro de 2026*
+
+---
+
+# Parte 1 — Escopo do Plugin
 
 Em conformidade com a Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018).
 
-Versão institucional: [quizconcursos.com/politica-de-privacidade](https://www.quizconcursos.com/politica-de-privacidade) · [quizconcursos.com/politica](https://www.quizconcursos.com/politica)
-
-## 1. Escopo
+## 1.1 O que é este documento
 
 Esta Política de Privacidade aplica-se ao plugin **Radar de Concursos Públicos** ("Plugin"), publicado por **Tech Mix** nas plataformas de agentes da OpenAI, e descreve como informações são tratadas quando você utiliza o Plugin para pesquisar concursos públicos, analisar editais ou receber sugestões de estudo.
 
+A **Parte 2** integra a Política de Privacidade oficial do **QuizConcursos.com**, plataforma complementar mencionada pelo Plugin. Em caso de divergência entre este documento e a versão canônica publicada em [quizconcursos.com/politica](https://www.quizconcursos.com/politica), prevalece a versão canônica.
+
+## 1.2 Como o Plugin trata dados
+
 O Plugin é uma ferramenta de pesquisa e análise executada **dentro da conversa** com o assistente de IA. Ele **não possui** servidores próprios, base de dados, sistema de cadastro, login, cookies ou rastreamento de uso.
 
-## 2. Dados tratados
+**Dados tratados:**
+- Filtros que você informa na conversa (estado, município, esfera, área, cargo, escolaridade, salário mínimo, banca, regime), usados **exclusivamente para elaborar a resposta daquela conversa**;
+- Consultas a páginas **públicas** na web (órgãos, diários oficiais, bancas e portais de descoberta).
 
-### 2.1 Dados fornecidos por você na conversa
-Para personalizar a pesquisa, você pode informar filtros como estado, município, esfera (federal, estadual, municipal), área, cargo, escolaridade, salário mínimo, banca ou regime. Essas informações são utilizadas **exclusivamente para elaborar a resposta daquela conversa**.
-
-### 2.2 Dados de navegação e uso
-O Plugin realiza consultas a páginas públicas na web (páginas oficiais de órgãos, diários oficiais, bancas organizadoras e portais agregadores, usados apenas para descoberta). Não há coleta, armazenamento ou perfilamento de dados pessoais pelo Plugin.
-
-### 2.3 Dados que o Plugin NÃO coleta
-- Não criamos contas, cadastros ou perfis de usuário.
-- Não coletamos nome, e-mail, telefone, endereço, CPF ou dados de pagamento por meio do Plugin.
-- Não submetemos inscrições, compras ou pagamentos em seu nome.
-- Não instalamos cookies nem utilizamos publicidade dentro do Plugin.
+**O que o Plugin NÃO coleta:**
+- Não criamos contas, cadastros ou perfis de usuário;
+- Não coletamos nome, e-mail, telefone, endereço, CPF ou dados de pagamento por meio do Plugin;
+- Não submetemos inscrições, compras ou pagamentos em seu nome;
+- Não instalamos cookies nem utilizamos publicidade dentro do Plugin;
 - Não vendemos nem compartilhamos dados pessoais para fins comerciais ou de marketing.
 
-## 3. Finalidade
+## 1.3 Finalidade
 
-Os dados tratados têm como finalidade exclusiva:
-- responder às suas solicitações de pesquisa e análise na conversa em curso;
-- aplicar os filtros que você solicitar;
-- citar as fontes oficiais consultadas para que você possa verificar as informações.
+Responder às suas solicitações de pesquisa e análise na conversa em curso, aplicando os filtros solicitados e citando as fontes oficiais consultadas para que você possa verificar as informações.
 
-## 4. Plataformas terceiras
+## 1.4 Plataformas terceiras
 
-### 4.1 Plataforma de IA (OpenAI / ChatGPT / Codex)
-As conversas são processadas pela plataforma de IA na qual o Plugin está instalado. O tratamento de dados nessa plataforma rege-se pela política de privacidade dela. Recomendamos a leitura da política de privacidade da plataforma utilizada.
+- **Plataforma de IA (OpenAI / ChatGPT / Codex):** as conversas são processadas pela plataforma na qual o Plugin está instalado, conforme a política de privacidade dela.
+- **QuizConcursos.com:** plataforma distinta, de acesso **opcional**, com cadastro e funcionalidades próprias. Dados informados lá são tratados conforme a política integrada na Parte 2 e a versão canônica em [quizconcursos.com/politica](https://www.quizconcursos.com/politica).
 
-### 4.2 QuizConcursos.com (plataforma complementar)
-Quando você demonstra interesse em estudar, o Plugin pode sugerir o [QuizConcursos.com](https://quizconcursos.com) como **plataforma complementar de preparação** (questões, quizzes e simulados). O acesso é opcional e nunca condiciona a pesquisa de concursos.
+## 1.5 Retenção
 
-O QuizConcursos.com é um site distinto, com cadastro e funcionalidades próprias, e possui a sua própria política de privacidade: [quizconcursos.com/politica](https://www.quizconcursos.com/politica). Dados informados lá são tratados conforme essa política.
+O Plugin não mantém histórico próprio entre conversas; os dados informados são mantidos conforme a política de retenção da plataforma de IA utilizada. No QuizConcursos.com, os dados da conta são mantidos enquanto a conta estiver ativa e removidos em até 30 dias após a exclusão (seção 2.9).
 
-## 5. Compartilhamento
-
-Seus dados pessoais **não são vendidos, compartilhados ou cedidos a terceiros para fins comerciais ou de marketing**. Compartilhamento ocorre apenas:
-- com prestadores de serviços essenciais das plataformas envolvidas (hospedagem, IA, medição de audiência), mediante as respectivas políticas;
-- quando exigido por lei ou ordem judicial;
-- para proteção dos direitos e segurança do Plugin, do QuizConcursos.com e de seus usuários.
-
-## 6. Segurança
-
-- O Plugin não armazena dados em infraestrutura própria.
-- Comunicações nas plataformas envolvidas utilizam criptografia TLS/SSL em trânsito.
-- O QuizConcursos.com adota criptografia dos dados em repouso, autenticação segura (Firebase Authentication) e acesso restrito à equipe, conforme descrito na [política de privacidade da plataforma](https://www.quizconcursos.com/politica).
-
-## 7. Retenção
-
-- Dados informados na conversa são mantidos conforme a política de retenção da plataforma de IA utilizada.
-- O Plugin não mantém histórico próprio entre conversas.
-- No QuizConcursos.com, os dados da conta são mantidos enquanto a conta estiver ativa; após a exclusão, são removidos em até 30 dias.
-
-## 8. Direitos do titular (LGPD)
-
-Nos termos da LGPD, você tem direito a:
-- confirmação da existência de tratamento de dados;
-- acesso aos seus dados pessoais;
-- correção de dados incompletos, inexatos ou desatualizados;
-- anonimização, bloqueio ou eliminação de dados desnecessários;
-- portabilidade;
-- eliminação dos dados tratados com consentimento;
-- informação sobre compartilhamento;
-- revogação do consentimento.
-
-Para exercer esses direitos, entre em contato pelos canais da seção 10.
-
-## 9. Cookies e publicidade
-
-O Plugin não utiliza cookies nem exibe anúncios. Cookies e publicidade (Google AdSense, Google Analytics) aplicam-se apenas ao site [quizconcursos.com](https://www.quizconcursos.com), mediante consentimento, conforme a [política de cookies](https://www.quizconcursos.com/cookies).
-
-## 10. Contato do controlador
-
-Em caso de dúvidas sobre esta Política de Privacidade ou sobre o tratamento dos seus dados:
+## 1.6 Contato
 
 - **E-mail:** contato@quizconcursos.com
 - **Formulário:** https://www.quizconcursos.com/contato
 - **Central de suporte:** https://www.quizconcursos.com/suporte
 - **Encarregado de Dados (DPO):** equipe QuizConcursos
 
-## 11. Alterações
+---
 
-Esta política pode ser atualizada para refletir mudanças no Plugin ou na legislação aplicável. A data de última atualização é indicada no topo deste documento. Versões anteriores ficam disponíveis no repositório do projeto.
+# Parte 2 — Política integrada do QuizConcursos.com
+
+> Esta parte reproduz a Política de Privacidade oficial do QuizConcursos.com (fonte canônica: [quizconcursos.com/politica](https://www.quizconcursos.com/politica), última atualização: Janeiro de 2026) e aplica-se quando você acessa ou utiliza o QuizConcursos.com.
+
+## 2.1 Introdução
+
+A sua privacidade é importante para nós. Esta Política de Privacidade descreve como o QuizConcursos coleta, usa e protege as informações dos seus usuários, em conformidade com a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).
+
+## 2.2 Dados coletados
+
+Coletamos apenas os dados estritamente necessários para o funcionamento da plataforma:
+
+- **Dados de cadastro:** nome, e-mail e senha (autenticada via Firebase)
+- **Dados de uso:** progresso nos estudos, questões respondidas, simulados realizados
+- **Dados de pagamento:** apenas processados por meio de gateways seguros (Mercado Pago, PagBank)
+
+## 2.3 Finalidade dos dados
+
+Os dados coletados são utilizados exclusivamente para:
+
+- Autenticação e acesso à plataforma
+- Acompanhamento do seu progresso nos estudos
+- Geração de estatísticas e relatórios de desempenho
+- Processamento de pagamentos
+- Melhoria da experiência do usuário
+
+## 2.4 Compartilhamento de dados
+
+Declaramos de forma inequívoca: seus dados pessoais **NÃO** são vendidos, compartilhados ou cedidos a terceiros para fins comerciais ou de marketing. Esta é uma prática firme e inegociável do QuizConcursos. Não realizamos nenhuma forma de comercialização dos dados dos nossos usuários.
+
+Os dados podem ser compartilhados apenas:
+
+- Com prestadores de serviços essenciais para o funcionamento da plataforma (hosting, processamento de pagamentos, medição de audiência e anúncios via Google AdSense/Google Analytics, exclusivamente mediante o seu consentimento — veja a seção 2.8)
+- Quando exigido por lei ou ordem judicial
+- Para proteção dos direitos e segurança do QuizConcursos e seus usuários
+
+## 2.5 Armazenamento e segurança
+
+**Criptografia de dados:** todos os dados pessoais são armazenados de forma criptografada em nossa base de dados, utilizando algoritmos robustos para garantir a segurança das informações, mesmo em caso de acesso não autorizado aos servidores.
+
+**Criptografia em trânsito:** todas as comunicações entre seu dispositivo e nossos servidores são protegidas com criptografia TLS/SSL, garantindo que os dados não sejam interceptados durante a transmissão.
+
+**Autenticação segura:** utilizamos o Firebase Authentication para autenticação de usuários, que fornece segurança de nível empresarial com verificação de identidade em múltiplos fatores.
+
+**Controle de acesso:** acesso restrito a dados pessoais com monitoramento contínuo de segurança. Apenas membros autorizados da equipe têm acesso aos dados quando estritamente necessário.
+
+**Processamento de pagamentos:** dados de cartão de crédito e pagamento **NÃO** são armazenados em nossos servidores. Todo o processamento é realizado por gateways de pagamento certificados (Mercado Pago, PagBank) que seguem o padrão PCI DSS.
+
+**Provedores confiáveis:** utilizamos serviços de provedores confiáveis (Google Cloud, Neon Database) que seguem padrões rigorosos de segurança e conformidade.
+
+## 2.6 Direitos do titular (LGPD)
+
+De acordo com a LGPD, você tem direito a:
+
+- Confirmação da existência de tratamento de dados
+- Acesso aos seus dados pessoais
+- Correção de dados incompletos ou desatualizados
+- Anonimização, bloqueio ou eliminação de dados desnecessários
+- Portabilidade dos dados
+- Eliminação dos dados tratados com consentimento
+- Informação sobre compartilhamento de dados
+- Revogação do consentimento
+
+## 2.7 Cookies e tecnologias semelhantes
+
+Utilizamos cookies essenciais para o funcionamento da plataforma (autenticação, segurança e preferências). Cookies não essenciais só são ativados depois que você dá o seu consentimento livre e informado através do nosso banner de cookies, que pode ser aceito, recusado ou personalizado a qualquer momento.
+
+Você pode revogar ou alterar sua escolha quando quiser pelo link "Preferências de cookies" no rodapé do site.
+
+Cookies utilizados:
+- Sessão de autenticação (essencial)
+- Preferências do usuário (essencial)
+- Medição de audiência - Google Analytics (com consentimento)
+- Publicidade - Google AdSense (com consentimento)
+
+## 2.8 Publicidade e cookies de terceiros (Google AdSense)
+
+Este site exibe anúncios por meio do Google AdSense. Para veicular e medir esses anúncios, o Google e seus parceiros podem instalar e utilizar cookies e identificadores no seu navegador, inclusive cookies de terceiros.
+
+Com o seu consentimento, esses dados podem ser usados para:
+- Personalizar os anúncios exibidos
+- Medir a eficácia dos anúncios
+- Realizar análises de audiência e atribuição
+
+Sem o seu consentimento, os anúncios não são exibidos ou são exibidos de forma não personalizada (sem uso de dados de navegação para segmentação).
+
+O Google pode combinar os dados coletados no nosso site com dados coletados em outros sites ou aplicativos do mesmo anunciante, conforme descrito na política de privacidade e de cookies do Google. Saiba mais: https://www.google.com/policies/privacy/partners/
+
+Você também pode gerenciar os anúncios personalizados acessando as Configurações de Anúncios do Google (https://adssettings.google.com) ou recusando os cookies pelo banner do site.
+
+Terceiros que também podem instalar cookies neste site:
+- Google Analytics (GA4) - medição de audiência
+- Mercado Pago e PagBank - processamento de pagamentos (apenas no checkout)
+
+Estes terceiros têm suas próprias políticas de privacidade, recomendamos a leitura das mesmas.
+
+## 2.9 Retenção de dados
+
+Seus dados pessoais são mantidos apenas pelo tempo necessário para cumprir as finalidades para as quais foram coletados, ou conforme exigido por lei.
+
+Dados de conta são mantidos enquanto a conta estiver ativa. Após a exclusão da conta, os dados são removidos em até 30 dias.
+
+## 2.10 Contato do controlador
+
+Em caso de dúvidas sobre esta Política de Privacidade ou sobre o tratamento dos seus dados, entre em contato:
+
+- **E-mail:** contato@quizconcursos.com
+- **Formulário:** /contato
+- **Encarregado de Dados (DPO):** equipe QuizConcursos
 
 ---
 
-**Compromisso com a proteção de dados:** o Radar de Concursos Públicos coleta apenas o mínimo necessário para responder à sua pesquisa na conversa, não possui rastreamento próprio e não vende dados pessoais. Esta política está em conformidade com a LGPD (Lei nº 13.709/2018).
+**Compromisso com a proteção de dados:** o QuizConcursos coleta apenas o mínimo necessário de dados para o funcionamento da plataforma. Todos os dados pessoais são criptografados em nossa base de dados. Seus dados NÃO são vendidos ou compartilhados com terceiros para fins comerciais. Esta política está em estrita conformidade com a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).

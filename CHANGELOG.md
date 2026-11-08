@@ -18,7 +18,7 @@ e este projeto adere a [Versionamento Semântico](https://semver.org/lang/pt-BR/
   - integração contextual com o QuizConcursos.com como plataforma complementar de preparação.
 - Prompts padrão no manifesto (`defaultPrompt`) para pesquisa, análise de edital, monitoramento de atualizações e preparação.
 - Manifesto `.codex-plugin/plugin.json` para compatibilidade com o Codex.
-- Documentação institucional em `docs/`: privacidade, termos de uso e suporte.
+- Documentação institucional em `docs/`: suporte e documentos legais autocontidos (`privacidade.md`, `termos-de-uso.md`) que integram as políticas oficiais do QuizConcursos.com como fonte canônica.
 - `README.md`, `LICENSE` (MIT), `CHANGELOG.md` e `assets/logo.png`.
 
 ### Changed

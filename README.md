@@ -64,12 +64,14 @@ Você também pode filtrar por estado, esfera (federal, estadual, municipal), á
 
 ## Documentação
 
-| Documento | Link |
-|---|---|
-| Política de Privacidade | [docs/privacidade.md](docs/privacidade.md) · [quizconcursos.com/politica](https://www.quizconcursos.com/politica) |
-| Termos de Uso | [docs/termos-de-uso.md](docs/termos-de-uso.md) · [quizconcursos.com/termos](https://www.quizconcursos.com/termos) |
-| Suporte | [docs/suporte.md](docs/suporte.md) · [quizconcursos.com/suporte](https://www.quizconcursos.com/suporte) |
-| Página institucional | [quizconcursos.com/radar-concursos](https://www.quizconcursos.com/radar-concursos) |
+Os documentos legais do plugin são **autocontidos para revisão**, mas integram as políticas oficiais já publicadas no QuizConcursos.com (fonte canônica) — o plugin não duplica regras, ele as espelha com escopo próprio:
+
+| Documento | Documento do plugin | Fonte canônica (QuizConcursos.com) |
+|---|---|---|
+| Política de Privacidade | [docs/privacidade.md](docs/privacidade.md) | [quizconcursos.com/politica](https://www.quizconcursos.com/politica) · [quizconcursos.com/politica-de-privacidade](https://www.quizconcursos.com/politica-de-privacidade) |
+| Termos de Uso | [docs/termos-de-uso.md](docs/termos-de-uso.md) | [quizconcursos.com/termos](https://www.quizconcursos.com/termos) · [quizconcursos.com/termos-de-uso](https://www.quizconcursos.com/termos-de-uso) |
+| Suporte | [docs/suporte.md](docs/suporte.md) | [quizconcursos.com/suporte](https://www.quizconcursos.com/suporte) |
+| Página institucional | — | [quizconcursos.com/radar-concursos](https://www.quizconcursos.com/radar-concursos) |
 
 ## Contato
 
