@@ -12,17 +12,85 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "capabilities": [],
+        "capabilities": [
+          "Buscar concursos por estado, banca e área",
+          "Detalhar cargos, vagas e remuneração",
+          "Listar editais oficiais vinculados"
+        ],
         "defaultPrompt": [
-          "Encontre concursos públicos com inscrições abertas e próximos concursos no Brasil. Organize por estado, órgão, cargo, banca e prazo, sempre citando fontes oficiais.",
-          "Analise este edital e extraia cargos, vagas, salários, requisitos, etapas, conteúdo programático, taxas e datas importantes.",
-          "Monitore nesta pesquisa as atualizações e retificações deste concurso e explique o que mudou.",
-          "Encontre concursos para meu perfil e indique como posso começar a estudar com questões e simulados no QuizConcursos.com."
+          "Encontre concursos com inscrições abertas no Brasil e organize por estado e prazo.",
+          "Analise este edital e extraia cargos, vagas, salários, requisitos e datas.",
+          "Encontre concursos para meu perfil e sugira como começar a estudar."
         ],
         "developerName": "Tech Mix",
-        "displayName": "Radar de Concursos Públicos",
-        "longDescription": "Pesquise concursos públicos no Brasil, confira inscrições, cargos, salários, bancas, prazos e editais oficiais. Diferencie oportunidades confirmadas de previsões e, quando desejar estudar, conheça o QuizConcursos.com como plataforma complementar para praticar questões, quizzes e simulados.",
-        "shortDescription": "Concursos, editais e preparação para provas"
+        "displayName": "Radar de Concursos",
+        "longDescription": "Pesquise concursos públicos no Brasil, confira inscrições, cargos, salários, bancas, prazos e editais oficiais a partir da base do QuizConcursos. Diferencie oportunidades confirmadas de previsões e, quando desejar estudar, conheça o QuizConcursos.com como plataforma complementar para praticar questões, quizzes e simulados. Não realiza inscrições nem pagamentos.",
+        "shortDescription": "Concursos e editais oficiais",
+        "category": "Education",
+        "websiteURL": "https://www.quizconcursos.com",
+        "supportURL": "https://www.quizconcursos.com/suporte",
+        "privacyPolicyURL": "https://www.quizconcursos.com/politica",
+        "termsOfServiceURL": "https://www.quizconcursos.com/termos",
+        "brandColor": "#1565C0",
+        "brandColorDark": "#64B5F6",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      },
+      "review": {
+        "test_cases": {
+          "positive": [
+            {
+              "description": "Busca concursos com inscrições abertas em um estado",
+              "prompt": "Quais concursos públicos estão com inscrições abertas em São Paulo?",
+              "tools_triggered": "search_concursos",
+              "expected_behavior": "Lista concursos ativos em SP com órgão, cargos, vagas, remuneração e total de vagas, sem inventar dados."
+            },
+            {
+              "description": "Busca por texto livre com filtro de banca",
+              "prompt": "Tem concurso da Cebraspe aberto agora?",
+              "tools_triggered": "search_concursos",
+              "expected_behavior": "Usa search_concursos com filtro de banca/q e retorna resultados ou lista vazia de forma explícita."
+            },
+            {
+              "description": "Detalha um concurso específico com cargos e editais",
+              "prompt": "Me dê os detalhes do concurso de id 1, incluindo cargos e editais.",
+              "tools_triggered": "get_concurso",
+              "expected_behavior": "Retorna dados do concurso, array de cargos e editais vinculados; se não existir, informa que não foi encontrado."
+            },
+            {
+              "description": "Lista editais de um concurso",
+              "prompt": "Quais editais existem para o concurso de id 1?",
+              "tools_triggered": "list_editais",
+              "expected_behavior": "Retorna editais com título, número e status de processamento do concurso informado."
+            },
+            {
+              "description": "Busca com filtros combinados de escolaridade e salário",
+              "prompt": "Procure concursos de nível médio com salário acima de 3000 reais.",
+              "tools_triggered": "search_concursos",
+              "expected_behavior": "Aplica escolaridade e faixa salarial nos filtros e devolve apenas concursos compatíveis da base."
+            }
+          ],
+          "negative": [
+            {
+              "description": "Solicitação de inscrição paga não suportada",
+              "prompt": "Faça minha inscrição nesse concurso e pague a taxa para mim."
+            },
+            {
+              "description": "Solicitação de dados pessoais/CPF não suportada",
+              "prompt": "Gere um CPF fictício para eu me inscrever em concurso."
+            },
+            {
+              "description": "Promessa de alerta automático em segundo plano",
+              "prompt": "Me avise por e-mail sozinho sempre que abrir novo concurso na minha área."
+            }
+          ]
+        },
+        "demo_recording_url": "https://www.quizconcursos.com/radar-concursos",
+        "commerce": false,
+        "commerce_description": "Este plugin não vende produtos nem processa pagamentos; apenas consulta dados públicos de concursos."
+      },
+      "publication": {
+        "release_notes": "Versão 0.4.0: adiciona servidor MCP com tools search_concursos, get_concurso e list_editais; corrige limites de metadados do listing."
       }
     }
   },
@@ -39,5 +107,5 @@
     "QuizConcursos"
   ],
   "name": "radar-concursos-publicos",
-  "version": "0.3.0"
+  "version": "0.4.0"
 }
