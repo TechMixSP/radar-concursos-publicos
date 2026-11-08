@@ -1,0 +1,36 @@
+{
+  "interface": {
+    "capabilities": [],
+    "defaultPrompt": [
+      "Encontre concursos p\u00fablicos com inscri\u00e7\u00f5es abertas e pr\u00f3ximos concursos no Brasil. Organize por estado, \u00f3rg\u00e3o, cargo, banca e prazo, sempre citando fontes oficiais.",
+      "Analise este edital e extraia cargos, vagas, sal\u00e1rios, requisitos, etapas, conte\u00fado program\u00e1tico, taxas e datas importantes.",
+      "Monitore nesta pesquisa as atualiza\u00e7\u00f5es e retifica\u00e7\u00f5es deste concurso e explique o que mudou.",
+      "Encontre concursos para meu perfil e indique como posso come\u00e7ar a estudar com quest\u00f5es e simulados no QuizConcursos.com."
+    ],
+    "developerName": "Tech Mix",
+    "displayName": "Radar de Concursos P\u00fablicos",
+    "longDescription": "Pesquise concursos p\u00fablicos no Brasil, confira inscri\u00e7\u00f5es, cargos, sal\u00e1rios, bancas, prazos e editais oficiais. Diferencie oportunidades confirmadas de previs\u00f5es e, quando desejar estudar, conhe\u00e7a o QuizConcursos.com como plataforma complementar para praticar quest\u00f5es, quizzes e simulados.",
+    "shortDescription": "Concursos, editais e prepara\u00e7\u00e3o para provas",
+    "category": "Other"
+  },
+  "name": "radar-concursos-publicos",
+  "version": "0.2.0",
+  "description": "Encontre concursos p\u00fablicos e editais com fontes oficiais e descubra recursos complementares de prepara\u00e7\u00e3o no QuizConcursos.com.",
+  "author": {
+    "name": "Tech Mix",
+    "email": "techmixsp@gmail.com"
+  },
+  "keywords": [
+    "concursos p\u00fablicos",
+    "editais",
+    "processo seletivo",
+    "vagas p\u00fablicas",
+    "bancas organizadoras",
+    "inscri\u00e7\u00f5es",
+    "prepara\u00e7\u00e3o para concursos",
+    "quest\u00f5es de concursos",
+    "simulados",
+    "QuizConcursos"
+  ],
+  "skills": "./skills"
+}

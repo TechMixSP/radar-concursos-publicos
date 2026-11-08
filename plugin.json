@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "techmixsp@gmail.com",
+    "name": "Tech Mix",
+    "url": "https://www.quizconcursos.com"
+  },
+  "description": "Encontre concursos públicos e editais com fontes oficiais e descubra recursos complementares de preparação no QuizConcursos.com.",
+  "homepage": "https://www.quizconcursos.com/radar-concursos",
+  "repository": "https://github.com/TechMixSP/radar-concursos-publicos.git",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "defaultPrompt": [
+          "Encontre concursos públicos com inscrições abertas e próximos concursos no Brasil. Organize por estado, órgão, cargo, banca e prazo, sempre citando fontes oficiais.",
+          "Analise este edital e extraia cargos, vagas, salários, requisitos, etapas, conteúdo programático, taxas e datas importantes.",
+          "Monitore nesta pesquisa as atualizações e retificações deste concurso e explique o que mudou.",
+          "Encontre concursos para meu perfil e indique como posso começar a estudar com questões e simulados no QuizConcursos.com."
+        ],
+        "developerName": "Tech Mix",
+        "displayName": "Radar de Concursos Públicos",
+        "longDescription": "Pesquise concursos públicos no Brasil, confira inscrições, cargos, salários, bancas, prazos e editais oficiais. Diferencie oportunidades confirmadas de previsões e, quando desejar estudar, conheça o QuizConcursos.com como plataforma complementar para praticar questões, quizzes e simulados.",
+        "shortDescription": "Concursos, editais e preparação para provas"
+      }
+    }
+  },
+  "keywords": [
+    "concursos públicos",
+    "editais",
+    "processo seletivo",
+    "vagas públicas",
+    "bancas organizadoras",
+    "inscrições",
+    "preparação para concursos",
+    "questões de concursos",
+    "simulados",
+    "QuizConcursos"
+  ],
+  "name": "radar-concursos-publicos",
+  "version": "0.2.0"
+}
